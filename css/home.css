@@ -22,6 +22,10 @@
     margin-left: 30px;
     background-color: #FFEF66;
   }
+  .header .logo a{
+   text-decoration: none;
+   color: #000;
+  }
   .link4{
     background-color: #FFEF66;
   }
@@ -44,8 +48,8 @@
     background-color: #FFEF66;
   }
   .link4 ul li a {
-    text-decoration: none; /* Remove the underline */
-    color: #000000; /* Set the text color to black */
+    text-decoration: none;
+    color: #000000;
     background-color: #FFEF66;
   }
   .link4 ul li a:hover{
