@@ -1,5 +1,4 @@
 *{
-    background-color: #FEDE00;
     font-family: rubik;
 }
 .header {
@@ -21,6 +20,11 @@
     font-size: 24px; /* Adjust the font size as needed */
     font-weight: 700; /* Use a bold font weight */
     margin-left: 30px;
+    background-color: #FFEF66;
+  }
+  .header .logo a{
+    text-decoration: none;
+    color: #000000;
     background-color: #FFEF66;
   }
   .link4{
@@ -45,10 +49,115 @@
     background-color: #FFEF66;
   }
   .link4 ul li a {
-    text-decoration: none; /* Remove the underline */
-    color: #000000; /* Set the text color to black */
+    text-decoration: none; 
+    color: #000000;
     background-color: #FFEF66;
   }
   .link4 ul li a:hover{
     text-decoration: underline;
   }
+
+  .main {
+    background-color: #FEDE00;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    border-radius: 5px;
+  }
+  .video-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+  .video-player iframe{
+    width: 100%;
+    max-width: 800px;
+    height: 450xp;
+  }
+  .quote{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  .quote h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .quote p{
+    font-size: 18px;
+    text-align: left;
+  }
+  .quote .author{
+    display: block;
+    text-align: right;
+  }
+  hr {
+    border: none;
+    height: 1px; 
+    margin: 30px 0; 
+    overflow: visible;
+    border-top: medium double #333;
+    text-align: center;
+  }
+
+  .week{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .day-even, .day-odd{
+    width: 45%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .day-odd{
+    text-align: right;
+    margin-top: 100px;
+  }
+
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-radius: 5px;
+  }
+  
+  .contact-third {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-third p {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+  }
+  
+  .footer-icon a {
+    margin: 0 8px;
+  }
+  
+  .footer-icon a img {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+  }
+  
+  
+  
+
