@@ -118,6 +118,11 @@
     text-align: right;
     margin-top: 100px;
   }
+  .clocky{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   footer {
     background-color: #000;
