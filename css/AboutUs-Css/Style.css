@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 * {
   font-family: rubik;
   box-sizing: border-box;
-  margin:0;
+  margin: 0;
 }
-body{
+body {
   background-color: #fede00;
 }
 .header {
@@ -54,4 +55,94 @@ body{
 }
 .link4 ul li a:hover {
   text-decoration: underline;
+}
+.top {
+  background-image: url(https://turtlerockpreschool.com/wp-content/uploads/2015/04/hero-about.jpg);
+  background-attachment: scroll;
+  min-height: 300px;
+  background-position: 0% 85% !important;
+  margin-bottom: 25px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  margin-top: 61px;
+}
+body h1 {
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+body p {
+  font-size: 1.1em;
+  margin: 0px 15px 0px 15px;
+  text-align: justify;
+}
+body h2 {
+  font-size: 1.5em;
+  margin: 20px 15px 0px 15px;
+}
+.philosophy {
+  padding: 5px 42% 0 0;
+}
+.diversity {
+  padding: 5px 0;
+}
+.philo,
+.philo2 {
+  position: relative;
+}
+.sidebar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 38%;
+  margin-top: 40px;
+  margin-right: 15px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.cent {
+  display: block;
+  margin: 10px auto 10px auto;
+  width: 70%;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  border-radius: 5px;
+}
+.slideshow {
+  margin: 20px auto 20px auto;
+}
+
+.contact-third {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-third p {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.footer-icon a {
+  margin: 0 8px;
+}
+
+.footer-icon a img {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%);
 }
