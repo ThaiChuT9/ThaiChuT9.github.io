@@ -55,6 +55,9 @@
   .link4 ul li a:hover{
     text-decoration: underline;
   }
+  body{
+    margin: 0px; padding: 0px;
+  }
   .content {
     background-color: #FEDE00;
     display: flex;
