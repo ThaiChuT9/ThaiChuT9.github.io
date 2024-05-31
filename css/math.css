@@ -1,58 +1,64 @@
 *{
-    background-color: #FEDE00;
     font-family: rubik;
 }
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #FFEF66; 
-    z-index: 1000;
-    height: 60px;
-    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
-  }
-  .header .logo {
-    font-family: 'Rubik', sans-serif;
-    font-size: 24px; 
-    font-weight: 700; 
-    margin-left: 30px;
-    background-color: #FFEF66;
-  }
-  .link4{
-    background-color: #FFEF66;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFEF66; /* Slightly lighter header color */
+  z-index: 1000;
+  height: 60px;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: 700; /* Use a bold font weight */
+  margin-left: 30px;
+  background-color: #FFEF66;
+}
+.header .logo a{
+  text-decoration: none;
+  color: #000000;
+  background-color: #FFEF66;
+}
+.link4{
+  background-color: #FFEF66;
+}
+
+.link4 ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+  background-color: #FFEF66;
+}
+
+.link4 ul li {
+  margin-right: 20px; /* Add spacing between list items */
   
-  .link4 ul {
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    margin-right: 20px;
-    background-color: #FFEF66;
-  }
-  
-  .link4 ul li {
-    margin-right: 20px;
-    
-  }
-  .link4 ul li:not(:last-child)::after {
-    margin-right: 10px;
-    background-color: #FFEF66;
-  }
-  .link4 ul li a {
-    text-decoration: none; 
-    color: #000000;
-    background-color: #FFEF66;
-  }
-  .link4 ul li a:hover{
-    text-decoration: underline;
-  }
+}
+.link4 ul li:not(:last-child)::after {
+  margin-right: 10px; /* Add spacing after the separator */
+  background-color: #FFEF66;
+}
+.link4 ul li a {
+  text-decoration: none; 
+  color: #000000;
+  background-color: #FFEF66;
+}
+.link4 ul li a:hover{
+  text-decoration: underline;
+}
+
   body {
-    font-family: 'Rubik', sans-serif;
     background-color: #FEDE00;
     margin: 0;
     padding: 0;
@@ -139,4 +145,43 @@
 .p1{
     font-size: 2em;
     margin-bottom: 20px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  border-radius: 5px;
+}
+
+.contact-third {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-third p {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.footer-icon a {
+  margin: 0 8px;
+}
+
+.footer-icon a img {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%);
 }
