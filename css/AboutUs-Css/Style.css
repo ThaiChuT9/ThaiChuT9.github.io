@@ -15,10 +15,51 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ffef66; /* Slightly lighter header color */
+  background-color: #FFEF66; /* Slightly lighter header color */
   z-index: 1000;
   height: 60px;
   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: 700; /* Use a bold font weight */
+  margin-left: 30px;
+  background-color: #FFEF66;
+}
+.header .logo a{
+ text-decoration: none;
+ color: #000;
+}
+.link4{
+  background-color: #FFEF66;
+}
+
+.link4 ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+  background-color: #FFEF66;
+}
+
+.link4 ul li {
+  margin-right: 20px; /* Add spacing between list items */
+  
+}
+.link4 ul li:not(:last-child)::after {
+  margin-right: 10px; /* Add spacing after the separator */
+  background-color: #FFEF66;
+}
+.link4 ul li a {
+  text-decoration: none;
+  color: #000000;
+  background-color: #FFEF66;
+}
+.link4 ul li a:hover{
+  text-decoration: underline;
 }
 
 .header .logo {
