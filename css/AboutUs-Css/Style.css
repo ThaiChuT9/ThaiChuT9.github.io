@@ -151,10 +151,11 @@ footer {
   color: #fff;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
-  border-radius: 5px;
+  clear: both;
+  position: relative;
+  height: 200px;
 }
 .slideshow {
   margin: 20px auto 20px auto;
