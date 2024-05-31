@@ -130,13 +130,14 @@ body h2 {
 .philo,
 .philo2 {
   position: relative;
+  padding-top: 30px;
 }
 .sidebar {
+  padding: 40px 20px;
   position: absolute;
   right: 0;
   top: 0;
   width: 38%;
-  margin-top: 40px;
   margin-right: 15px;
   overflow-clip-margin: content-box;
   overflow: clip;
