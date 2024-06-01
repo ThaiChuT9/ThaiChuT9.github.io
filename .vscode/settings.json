@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/time.html"
+    "livePreview.defaultPreviewPath": "/time.html",
+    "liveServer.settings.port": 5501
 }
