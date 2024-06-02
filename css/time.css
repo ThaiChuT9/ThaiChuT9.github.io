@@ -15,17 +15,13 @@
     box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
   }
   
-  .header .logo {
-    font-family: 'Rubik', sans-serif;
-    font-size: 24px; /* Adjust the font size as needed */
-    font-weight: 700; /* Use a bold font weight */
+  .header .logo img{
     margin-left: 30px;
-    background-color: #FFEF66;
+    width: 280px;
   }
   .header .logo a{
     text-decoration: none;
     color: #000000;
-    background-color: #FFEF66;
   }
   .link4{
     background-color: #FFEF66;
@@ -48,11 +44,7 @@
     margin-right: 10px; /* Add spacing after the separator */
     background-color: #FFEF66;
   }
-  .link4 ul li a {
-    text-decoration: none; 
-    color: #000000;
-    background-color: #FFEF66;
-  }
+
   .link4 ul li a:hover{
     text-decoration: underline;
   }
@@ -125,18 +117,83 @@
     align-items: center;
   }
 
+  }
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+  }
+  
+  .footer-icon a {
+    margin: 0 8px;
+  }
+  
+  .footer-icon a img {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+  }
+  .link4 {
+    background-color: #ffef66;
+  }
+  
+  .link4 ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    background-color: #ffef66;
+  }
+  
+  .link4 ul li {
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  .link4 ul li:not(:last-child)::after {
+    margin-right: 10px; /* Add spacing after the separator */
+    background-color: #ffef66;
+  }
+  .link4 ul li a {
+    text-decoration: none; /* Remove the underline */
+    color: #000000; /* Set the text color to black */
+    background-color: #ffef66;
+  }
+  .footer3 a{
+    text-decoration: none; /* Remove the underline */
+    color: #ffffff; /* Set the text color to black */
+    padding: 0 50px 0 5px;
+    width: auto !important;
+  }
+  .footer4 a{
+    text-decoration: none; /* Remove the underline */
+    color: #ffffff; /* Set the text color to black */
+    padding: 0 100px 0 5px;
+    width: auto !important;
+  }
+  .link4 ul li a:hover {
+    text-decoration: underline;
+  }
   footer {
     background-color: #000;
     color: #fff;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row-reverse;
-    border-radius: 5px;
+    height: 170px;
+    line-height: 150%;
   }
-  
+  .footer2 {
+    width: 600px;
+    display: flex;
+    text-align: left;
+    padding: 0 100px 0 150px;
+    text-decoration: none;
+  }
+  .footer2 a{
+    text-decoration: none;
+  }
   .contact-third {
+    padding: 0 150px 0 250px;
+    align-items: center;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -163,7 +220,6 @@
     height: 24px;
     filter: invert(100%);
   }
-  
   
   
 

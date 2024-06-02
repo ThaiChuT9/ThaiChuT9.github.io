@@ -16,7 +16,7 @@ body {
 	align-items: center;
 	font-family: "Montserrat", Arial, sans-serif;
 	min-height: 100vh;
-	padding: 30px 20px;
+	padding: 0px 50px 0 50px;
 	color: #fcfcfc;
 	text-align: center;
 	text-shadow: 2px 2px 2px #000;
@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-	padding: 50px 30px 0;
+	padding: 0px 50px 0 50px;
 	border-radius: 20px;
 	border: 8px solid #fcfcfc;
 	background-color: rgba(0, 0, 0, 0.82);
@@ -160,3 +160,86 @@ p {
 		border-top: 2px solid #fcfcfc;
 	}
 }
+.link4 {
+	background-color: #ffef66;
+  }
+  
+  .link4 ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	margin-right: 20px;
+	background-color: #ffef66;
+  }
+  
+  .link4 ul li {
+	margin-right: 20px; /* Add spacing between list items */
+  }
+  .link4 ul li:not(:last-child)::after {
+	margin-right: 10px; /* Add spacing after the separator */
+	background-color: #ffef66;
+  }
+  .link4 ul li a {
+	text-decoration: none; /* Remove the underline */
+	color: #000000; /* Set the text color to black */
+	background-color: #ffef66;
+  }
+  .footer3 a{
+	text-decoration: none; /* Remove the underline */
+	color: #ffffff; /* Set the text color to black */
+	padding: 0 50px 0 5px;
+	width: auto !important;
+  }
+  .footer4 a{
+	text-decoration: none; /* Remove the underline */
+	color: #ffffff; /* Set the text color to black */
+	padding: 0 100px 0 5px;
+	width: auto !important;
+  }
+  .link4 ul li a:hover {
+	text-decoration: underline;
+  }
+  footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	height: 170px;
+	line-height: 150%;
+  }
+  .footer2{
+	width: 1000px;
+	display: flex;
+	text-align: left;
+	padding: 0 100px 0 90px;
+  }
+  .contact-third {
+	padding: 0 150px 0 250px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .contact-third p {
+	color: #fff;
+	text-decoration: none;
+	margin: 5px 0;
+  }
+  .footer-icon {
+	display: flex;
+	justify-content: center;
+	margin: 10px 10px;
+  }
+  
+  .footer-icon a {
+	margin: 0 8px;
+  }
+  
+  .footer-icon a img {
+	width: 24px;
+	height: 24px;
+	filter: invert(100%);
+  }

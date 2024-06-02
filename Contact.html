@@ -4,102 +4,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/AboutUs-Css/Style.css" />
-    <style>
-      a:link,
-      a:visited,
-      a:active {
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      .Heyyou {
-        scale:1.3;
-        position: absolute;
-        width:40%;
-        margin: 5% 53% 10% 0;
-        padding: 6% 5% 0 12%;
-        line-height: 170%
-      }
-      iframe {
-        position: absolute;
-        margin: 7% 10px 20% 43%;
-        width: 52%;
-    }
-    body{
-        position: relative;
-        display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
-  margin: 0;
-    }
-    footer{
-        
-    }
-    </style>
+    <link rel="stylesheet" href="css/contact us/style.css" />
     <title>Kid-zone</title>
   </head>
   <body>
-  <header>
-    <div class="header">
-      <div class="logo">
-        <a href="index.html">Kid-zone</a>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"><img src="image/logo/logo kidzone.png" alt="" style="background-color:transparent"></a>
+        </div>
+        <div class="link4">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="alphabet.html">Alphabet</a></li>
+            <li><a href="Phonetic.html">Phonetic</a></li>
+            <li><a href="math.html">Math</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="time.html">Time</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="link4">
-        <ul>
-          <li><a href="About Us.html">About Us</a></li>
-          <li><a href="alphabet.html">Alphabet</a></li>
-          <li><a href="Phonetic.html">Phonetic</a></li>
-          <li><a href="math.html">Math</a></li>
-          <li><a href="food.html">Food</a></li>
-          <li><a href="time.html">Time</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-        </ul>
+    </header>
+    <main>
+      <p class="Heyyou">
+        <strong>KID-ZONE SAFETY CENTER</strong><br />
+        8A Ton That Thuyet, My Đinh, Nam Tu Liem, Ha Noi<br/>
+        <strong>Phone:</strong>
+        <a href="tel://+84971214189" style="color: black"
+          >(+84) 971 214 189<br/></a>
+        <strong>Email:</strong>
+        <a href="mailto:kid-zone@gmail.com"
+          >saigonkidscentre@yahoo.com</a
+        ><br />
+        <strong>Website:</strong>
+        <a
+          href="https://Kid-zoneSchool.com/"
+          style="color: black"
+          style="text-decoration: none"
+          >www.kid-zone.com</a
+        >
+      </p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1465294514496!2d105.78258101019365!3d21.026822215087666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab00954decbf%3A0xdb4ee23b49ad50c8!2zRlBUIEFwdGVjaCBIw6AgTuG7mWkgLSBI4buHIHRo4buRbmcgxJHDoG8gdOG6oW8gbOG6rXAgdHLDrG5oIHZpw6puIHF14buRYyB04bq_!5e0!3m2!1sen!2s!4v1717120410696!5m2!1sen!2s"
+        width="500"
+        height="55%"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <section class="contact section">
+        <div class="contact__page container grid">
+          <form action="" class="contact__form grid" id="contact-form">
+            <div class="contact__group grid">
+              <div class="contact__box">
+                <input type="text" name="user_name" id="name" required placeholder="Write your names" class="contact__input">
+                <label for="name" class="contact__label">Frist Name</label>
+              </div>
+      
+              <div class="contact__box">
+                <input type="email" name="user_email" id="email" required placeholder="Write your email" class="contact__input">
+                <label for="email" class="contact__label">Email Address</label>
+              </div>
+            </div>
+      
+            <div class="contact__box contact__area">
+              <textarea name="user-message" id="message" required placeholder="Write your message" class="contact__input"></textarea>
+              <label for="message" class="contact__label">Message</label>
+            </div>
+      
+            <p class="contact__message" id="contact-message"></p>
+      
+            <button type="submit" class="contact__send button">Send Message</button>
+          </form>
+        </div>
+      </section>
+      
+    </main>
+    <footer>
+    
+      <div class="footer2">
+        <p class="heyyou2">
+          <strong>KID-ZONE SAFETY CENTER</strong><br />
+          8A Ton That Thuyet, My Đinh, Nam Tu Liem, Ha Noi<br/>
+          <strong>Phone:</strong>
+          <a href="tel://+84971214189" style="color: white"
+            >(+84) 971 214 189<br/></a>
+          <strong>Email:</strong>
+          <a href="mailto:kid-zone@gmail.com" style="color: white"
+            >saigonkidscentre@yahoo.com</a
+          ><br />
+          <strong>Website:</strong>
+          <a
+            href="https://Kid-zoneSchool.com/"
+            style="color: white"
+            style="text-decoration: none"
+            >www.kid-zone.com</a
+          >
+        </p>
       </div>
-    </div>
-  </header>
-  <main>
-    <p class="Heyyou">
-      <strong>KID-ZONE SAFETY CENTER</strong><br />
-      8A Ton That Thuyet,<br />
-      My Đinh, Nam Tu Liem,<br />
-      Ha Noi 100000, Vietnam<br />
-      <strong>Phone:</strong>
-      <a href="tel://+84971214189" style="color: black"
-        >(+84) 971 214 189<br
-      /></a>
-      <strong>Email:</strong>
-      <a href="mailto:saigonkidscentre@yahoo.com">saigonkidscentre@yahoo.com</a
-      ><br />
-      <strong>Website:</strong>
-      <a
-        href="https://turtlerockpreschool.com/"
-        style="color: black"
-        style="text-decoration: none"
-        >www.kid-zone.com</a
-      >
-    </p>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1465294514496!2d105.78258101019365!3d21.026822215087666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab00954decbf%3A0xdb4ee23b49ad50c8!2zRlBUIEFwdGVjaCBIw6AgTuG7mWkgLSBI4buHIHRo4buRbmcgxJHDoG8gdOG6oW8gbOG6rXAgdHLDrG5oIHZpw6puIHF14buRYyB04bq_!5e0!3m2!1sen!2s!4v1717120410696!5m2!1sen!2s"
-      width="600"
-      height=50%
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-</main>
-  <footer>
-    <div class="contact-third">
-      <p>Follow Us On</p>
-      <dev class="footer-icon">
-        <a href=""><img src="image/icon/icons8-facebook-24.png" alt="" /></a>
-        <a href=""><img src="image/icon/icons8-instagram-24.png" alt="" /></a>
-        <a href=""><img src="image/icon/icons8-snapchat-24.png" alt="" /></a>
-        <a href=""><img src="image/icon/icons8-twitter-24.png" alt="" /></a>
-      </dev>
-      <p>Tel:(+84)123456789</p>
-    </div>
-  </footer>
-</body>
+      <div class="footer3">
+        <div class="heyyou3">
+          <ul>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="alphabet.html">Alphabet</a></li>
+            <li><a href="Phonetic.html">Phonetic</a></li>
+            <li><a href="math.html">Math</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer4">
+        <div class="heyyou4">
+          <ul>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="time.html">Time</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="contact-third">
+        <p>Follow Us On</p>
+        <dev class="footer-icon">
+          <a href="Contact.html"><img src="image/icon/icons8-facebook-24.png" alt="" /></a>
+          <a href="Contact.html"><img src="image/icon/icons8-instagram-24.png" alt="" /></a>
+          <a href="Contact.html"><img src="image/icon/icons8-snapchat-24.png" alt="" /></a>
+          <a href="Contact.html"><img src="image/icon/icons8-twitter-24.png" alt="" /></a>
+        </dev>
+        <a href="tel://+84971214189" style="color: rgb(255, 255, 255)"
+          >(+84) 971 214 189<br/></a>
+      </div>
+    </footer>
+  </body>
 </html>
