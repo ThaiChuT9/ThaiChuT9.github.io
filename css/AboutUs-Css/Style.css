@@ -29,89 +29,7 @@ body {
  text-decoration: none;
  color: #000;
 }
-.link4 {
-  background-color: #ffef66;
-}
 
-.link4 ul {
-  list-style-type: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  margin-right: 20px;
-  background-color: #ffef66;
-}
-
-.link4 ul li {
-  margin-right: 20px; /* Add spacing between list items */
-}
-.link4 ul li:not(:last-child)::after {
-  margin-right: 10px; /* Add spacing after the separator */
-  background-color: #ffef66;
-}
-.link4 ul li a {
-  text-decoration: none; /* Remove the underline */
-  color: #000000; /* Set the text color to black */
-  background-color: #ffef66;
-}
-.footer3 a{
-  text-decoration: none; /* Remove the underline */
-  color: #ffffff; /* Set the text color to black */
-  padding: 0 50px 0 5px;
-  width: auto !important;
-}
-.footer4 a{
-  text-decoration: none; /* Remove the underline */
-  color: #ffffff; /* Set the text color to black */
-  padding: 0 100px 0 5px;
-  width: auto !important;
-}
-.link4 ul li a:hover {
-  text-decoration: underline;
-}
-footer {
-  background-color: #000;
-  color: #fff;
-  padding: 20px;
-  display: flex;
-  height: 170px;
-  line-height: 150%;
-}
-.footer2{
-  width: 1000px;
-  display: flex;
-  text-align: left;
-  padding: 0 100px 0 90px;
-}
-.contact-third {
-  padding: 0 150px 0 250px;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contact-third p {
-  color: #fff;
-  text-decoration: none;
-  margin: 5px 0;
-}
-.footer-icon {
-  display: flex;
-  justify-content: center;
-  margin: 10px 10px;
-}
-
-.footer-icon a {
-  margin: 0 8px;
-}
-
-.footer-icon a img {
-  width: 24px;
-  height: 24px;
-  filter: invert(100%);
-}
 .top {
   background-image: url(https://turtlerockpreschool.com/wp-content/uploads/2015/04/hero-about.jpg);
   background-attachment: scroll;
@@ -140,7 +58,7 @@ body h2 {
   padding: 20px 30% 0 0;
 }
 .philosophy2 {
-  padding: 20px 30% 40px 0;
+  padding: 20px 30% 0 0;
 }
 .diversity {
   padding: 5px 0;
@@ -151,11 +69,11 @@ body h2 {
   padding-top: 30px;
 }
 .sidebar {
-  padding: 60px 0px;
+  padding: 60px 0 0 0;
   position: absolute;
-  right: 15%;
+  right: 14%;
   top: 0;
-  width: 500px;
+  width: 440px;
   margin-right: 15px;
   overflow-clip-margin: content-box;
   overflow: clip;
@@ -196,7 +114,7 @@ body h2 {
 .footer3 a{
   text-decoration: none; /* Remove the underline */
   color: #ffffff; /* Set the text color to black */
-  padding: 0 50px 0 5px;
+  padding: 0 100px 0 5px;
   width: auto !important;
 }
 .footer4 a{
@@ -213,15 +131,16 @@ footer {
   color: #fff;
   padding: 20px;
   display: flex;
-  height: 170px;
+  height: 200px;
   line-height: 150%;
 }
 .footer2 {
-  width: 800px;
+  width: 1000px;
   display: flex;
   text-align: left;
-  padding: 0 100px 0 90px;
+  padding: 0 200px 0 50px;
   text-decoration: none;
+  scale:0.9;
 }
 .footer2 a{
     text-decoration: none;

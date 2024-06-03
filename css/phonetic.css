@@ -11,6 +11,7 @@ https://codepen.io/GeorgePark/full/aGNjZB/
 }
 
 body {
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -28,6 +29,7 @@ body {
 }
 
 .container {
+	scale:0.8;
 	padding: 0px 50px 0 50px;
 	border-radius: 20px;
 	border: 8px solid #fcfcfc;
